@@ -7,7 +7,7 @@ env:
   RESOURCE_GROUP_UAT: aguadamillas_students_2
   SUBSCRIPTION_ID_DEV: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
   SUBSCRIPTION_ID_UAT: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
-  USER_ALIAS: kathee
+  USER_ALIAS: KATHE
 
 jobs:
   build:
@@ -28,8 +28,8 @@ jobs:
       name: "Development"
     env:
       ENV: dev
-      DBHOST: kathee-dbsrv-dev.postgres.database.azure.com
-      DBNAME: kathee-db-dev
+      DBHOST: KATHE-dbsrv-dev.postgres.database.azure.com
+      DBNAME: KATHE-db-dev
       FLASK_APP: app.py
       FLASK_DEBUG: 1
 
@@ -60,8 +60,8 @@ jobs:
       name: "User Acceptance Testing"
     env:
       ENV: uat
-      DBHOST: kathee-dbsrv-uat.postgres.database.azure.com
-      DBNAME: kathee-db-uat
+      DBHOST: KATHE-dbsrv-uat.postgres.database.azure.com
+      DBNAME: KATHE-db-uat
       FLASK_APP: app.py
       FLASK_DEBUG: 1
 
