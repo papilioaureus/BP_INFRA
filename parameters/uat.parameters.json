@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentType": {
+      "value": "prod"
+    },
+    "postgreSQLServerName": {
+      "value": "kathe-dbsrv-uat"
+    },
+    "postgreSQLDatabaseName": {
+      "value": "kathe-db-uat"
+    },
+    "appServicePlanName": {
+      "value": "kathe-asp-uat"
+    },
+    "appServiceAPIAppName": {
+      "value": "kathe-be-uat"
+    },
+    "appServiceAppName": {
+      "value": "kathe-fe-uat"
+    },
+    "azureMonitorName": {
+      "value": "kathe-am-uat"
+    },
+    "appInsightsName": {
+      "value": "kathe-ai-uat"
+    },
+    "location": {
+      "value": "West Germany Centra"
+    }
+  }
+}
