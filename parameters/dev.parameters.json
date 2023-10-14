@@ -6,25 +6,25 @@
       "value": "nonprod"
     },
     "postgreSQLServerName": {
-      "value": "kathe1-dbsrv-dev"
+      "value": "kathee-dbsrv-dev"
     },
     "postgreSQLDatabaseName": {
-      "value": "kathe1-db-dev"
+      "value": "kathee-db-dev"
     },
     "appServicePlanName": {
-      "value": "kathe1-asp-dev"
+      "value": "kathee-asp-dev"
     },
     "appServiceAPIAppName": {
-      "value": "kathe1-be-dev"
+      "value": "kathee-be-dev"
     },
     "appServiceAppName": {
-      "value": "kathe1-fe-dev"
+      "value": "kathee-fe-dev"
     },
     "azureMonitorName": {
-      "value": "kathe1-am-dev"
+      "value": "kathee-am-dev"
     },
     "appInsightsName": {
-      "value": "kathe1-ai-dev"
+      "value": "kathee-ai-dev"
     },
     "location": {
       "value": "Switzerland North"
